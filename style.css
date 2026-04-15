@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 70px;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: url('https://source.unsplash.com/1600x900/?bakery,cake') no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+/* Button */
+.btn-pink {
+  background: #ff6b81;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-pink:hover {
+  background: #ff4757;
+}
+
+/* Product Cards */
+.product-card {
+  transition: 0.3s;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
